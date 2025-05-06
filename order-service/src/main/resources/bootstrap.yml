@@ -10,7 +10,6 @@ spring:
   cloud:
     config:
       enabled: true
-      hostname: config-server
       uri: http://35.200.243.154:8081
       fail-fast: false
   boot:

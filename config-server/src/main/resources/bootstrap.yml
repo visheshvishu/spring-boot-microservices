@@ -15,7 +15,7 @@ spring:
       server:
         encrypt.enabled: false
         git:
-          uri: https://github.com/ShowStopper3/config-repo/
+          uri: https://github.com/visheshvishu/config-repo.git
           searchPaths: order-service,customer-service
 
 

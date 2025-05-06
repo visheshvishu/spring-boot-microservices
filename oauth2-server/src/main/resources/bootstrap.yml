@@ -16,7 +16,7 @@ spring:
       server:
         encrypt.enabled: false
         git:
-          uri: http://34.131.200.139:8081
+          uri: https://github.com/visheshvishu/config-repo.git
           searchPaths: order-service,customer-service
 
 

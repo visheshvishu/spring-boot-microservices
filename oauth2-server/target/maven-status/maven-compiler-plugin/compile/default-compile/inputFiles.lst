@@ -1,4 +1,4 @@
-/home/visheshvishu5050/spring-boot-microservices/oauth2-server/src/main/java/com/sac/authserver/AuthApplication.java
-/home/visheshvishu5050/spring-boot-microservices/oauth2-server/src/main/java/com/sac/authserver/config/WebConfig.java
-/home/visheshvishu5050/spring-boot-microservices/oauth2-server/src/main/java/com/sac/authserver/InspectHeaderFilter.java
-/home/visheshvishu5050/spring-boot-microservices/oauth2-server/src/main/java/com/sac/authserver/config/AuthorizationServerConfig.java
+/home/visheshvishu5050/spring-boot-microservices/spring-boot-microservices/oauth2-server/src/main/java/com/sac/authserver/config/WebConfig.java
+/home/visheshvishu5050/spring-boot-microservices/spring-boot-microservices/oauth2-server/src/main/java/com/sac/authserver/AuthApplication.java
+/home/visheshvishu5050/spring-boot-microservices/spring-boot-microservices/oauth2-server/src/main/java/com/sac/authserver/config/AuthorizationServerConfig.java
+/home/visheshvishu5050/spring-boot-microservices/spring-boot-microservices/oauth2-server/src/main/java/com/sac/authserver/InspectHeaderFilter.java

@@ -5,8 +5,7 @@ spring:
   application:
     name: customer-service
   profiles:
-    active:
-      default
+    active: default
   cloud:
     config:
       enabled: true
@@ -18,8 +17,7 @@ spring:
       client:
         url: http://34.131.200.139:8086
         instance:
-          prefer-ip: true
-          service-url: http://34.131.200.139:8085
+          service-base-url: http://34.131.200.139:8085
 
 management:
   endpoints:

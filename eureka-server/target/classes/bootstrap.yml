@@ -1,4 +1,5 @@
 server:
+  address: 0.0.0.0
   port: 8080
 eureka:
   client:
@@ -16,6 +17,9 @@ management:
     health:
       show-details: always
 
+spring:
+  main:
+    allow-bean-definition-overriding: true
 
 #Setting logging levels
 logging:

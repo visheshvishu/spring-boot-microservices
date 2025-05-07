@@ -17,6 +17,9 @@ management:
     health:
       show-details: always
 
+spring:
+  main:
+    allow-bean-definition-overriding: true
 
 #Setting logging levels
 logging:

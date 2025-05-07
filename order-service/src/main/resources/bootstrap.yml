@@ -1,5 +1,4 @@
 server:
-  address: 0.0.0.0
   port: 8084
 
 spring:
@@ -17,6 +16,9 @@ spring:
     admin:
       client:
         url: http://34.131.200.139:8086
+        instance:
+          prefer-ip: true
+          service-url: http://34.131.200.139:8084
 
 management:
   endpoints:
@@ -35,6 +37,9 @@ eureka:
       defaultZone: http://34.131.200.139:8080/eureka/
     instance-info-replication-interval-seconds: 30
     registry-fetch-interval-seconds: 30
+    instance:
+    prefer-ip-address: true
+    ip-address: 34.131.200.139
 
 
 

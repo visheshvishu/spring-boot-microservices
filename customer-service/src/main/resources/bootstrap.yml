@@ -16,6 +16,8 @@ spring:
     admin:
       client:
         url: http://34.131.200.139:8086
+        instance:
+          service-base-url: http://34.131.200.139:8085
 
 management:
   endpoints:
